@@ -20,12 +20,13 @@ public class AlumnoJpaController implements Serializable {
         this.emf = emf;
     }
     
-    //Crear constructor porque no trae la clase
-    //de persistencia JPA
-    
+    /*==========================================
+    ==== Crear constructor porque no trae la clase
+    ==== de persistencia JPA*/
     public AlumnoJpaController(){
         emf = Persistence.createEntityManagerFactory("pruebaJPAPU");//Nombre de la unidad de persistencia q esta en la carpeta METAINF 
     }
+    /*==========================================*/
     
     private EntityManagerFactory emf = null;
 

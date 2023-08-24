@@ -1,6 +1,7 @@
 
 package com.mycompany.jpaprueba.logica;
 
+import com.mycompany.jpaprueba.persistence.ControladoraPersistencia;
 import java.io.Serializable;
 import java.util.Date;
 import javax.persistence.Basic;

@@ -6,3 +6,4 @@ com\mycompany\jpaprueba\persistence\AlumnoJpaController.class
 com\mycompany\jpaprueba\logica\Alumno_.class
 com\mycompany\jpaprueba\persistence\ControladoraPersistencia.class
 com\mycompany\jpaprueba\persistence\exceptions\PreexistingEntityException.class
+com\mycompany\jpaprueba\logica\ControladoraLogica.class
