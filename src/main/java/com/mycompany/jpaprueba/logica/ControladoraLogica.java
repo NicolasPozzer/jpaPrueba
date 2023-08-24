@@ -1,6 +1,7 @@
 package com.mycompany.jpaprueba.logica;
 
 import com.mycompany.jpaprueba.persistence.ControladoraPersistencia;
+import java.util.ArrayList;
 
 
 
@@ -26,6 +27,27 @@ public class ControladoraLogica {
     }
     
     
+    //Creamos metodo de eliminacion de alumno
+    public void eliminarAlumno(int id){
+        controlPersis.eliminarAlumno(id);
+    }
+    
+    
+    //Metodo para editar alumno
+    public void editarAlumno(Alumno alu){
+        controlPersis.editarAlumno(alu);
+    }
+    
+    //Metodo para traer un alumno en particular
+    public Alumno traerAlumno(int id){
+        //Tiene que retornar valor una vez encuentra el alumno
+        return controlPersis.traerAlumno(id);
+    }
+    
+    //Metodo de Lista para traer todos los alumnos
+    public ArrayList<Alumno> traerListaAlumnos(){
+        return controlPersis.traerListaAlumnos();
+    }
     
     
     
